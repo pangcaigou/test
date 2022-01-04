@@ -1,0 +1,15 @@
+//Map集合
+1.一个集合包含两个值，（一个k，一个value）
+2.Map中的元素，k和value数据类型可以相同，可以不同
+3.key不允许重复，value可以重复
+4.Map集合中的元素，key和value一一对应
+
+//Map常用的实现类
+Java.util.HashMap<k,v>集合 implements Map<k,v>接口
+HashMap<k,v>
+1.底层为哈希表，查询速度特别快
+2.是一个无序的集合，存储元素和取出元素的顺序可能不一样 
+
+Java.util.LinkedHashMap<k,v>集合 extends HashMap<k,v>集合
+1.LinkedHashMap底层为哈希表加链表
+2.LinkedHashMap集合石一个有序的集合，存储与取出元素的顺序是一样的
